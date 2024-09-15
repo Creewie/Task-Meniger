@@ -1,0 +1,9 @@
+{
+    "name": "task-maniger",
+    "version": "1.0.0",
+    "description": "Task maniger for ur acompaniament",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    }
+}
