@@ -5,7 +5,7 @@ function createTask(desc){
     var newTask = {
         id: id,
         desc: desc,
-        done: false
+        done: 'nie'
     }
     tasks.push(newTask)
     id++
@@ -14,7 +14,7 @@ function createTask(desc){
 function finishTask(id){
     var task = tasks.find(e => e.id == id)
     if(task){
-        task.done = true
+        task.done = 'tak'
     }
     else{
         console.log(`Nastąpił bład przy wczytaniu zadanie o id ${id}`)
